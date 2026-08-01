@@ -283,3 +283,120 @@ nav ul li{
 
 }
 }
+/* ================= SKILLS ================= */
+
+.skills{
+
+    padding:80px 40px;
+
+}
+
+.skills h2{
+
+    text-align:center;
+
+    color:#0078D4;
+
+    font-size:38px;
+
+    margin-bottom:50px;
+
+}
+
+.skill{
+
+    max-width:900px;
+
+    margin:25px auto;
+
+}
+
+.skill p{
+
+    font-weight:bold;
+
+    margin-bottom:8px;
+
+}
+
+.progress{
+
+    width:100%;
+
+    height:28px;
+
+    background:#dddddd;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+}
+
+.progress-bar{
+
+    height:100%;
+
+    color:white;
+
+    font-weight:bold;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:30px;
+
+}
+
+.salesforce{
+
+    width:90%;
+
+    background:#00A1E0;
+
+}
+
+.azure{
+
+    width:80%;
+
+    background:#0078D4;
+
+}
+
+.powerbi{
+
+    width:75%;
+
+    background:#F2C811;
+
+    color:black;
+
+}
+
+.windows{
+
+    width:80%;
+
+    background:#4CAF50;
+
+}
+
+.active{
+
+    width:75%;
+
+    background:#8E44AD;
+
+}
+
+.networking{
+
+    width:80%;
+
+    background:#FF9800;
+
+}
