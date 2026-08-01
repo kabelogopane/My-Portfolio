@@ -166,5 +166,57 @@ nav ul li{
 section{
     padding:60px 25px;
 }
+/* ========================= */
+/* ABOUT */
+/* ========================= */
 
+.about{
+    background:white;
+}
+
+.about-intro{
+    max-width:900px;
+    margin:0 auto 50px;
+    text-align:center;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.about-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.about-card{
+    width:320px;
+    background:#f8f9fb;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.10);
+    transition:.3s;
+}
+
+.about-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.about-card h3{
+    color:#0078D4;
+    margin-bottom:20px;
+}
+
+.about-card p{
+    line-height:1.8;
+}
+
+.about-card ul{
+    padding-left:20px;
+}
+
+.about-card li{
+    margin-bottom:10px;
+}
 }
