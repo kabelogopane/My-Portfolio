@@ -91,3 +91,23 @@ li {
 .btn:hover {
     background: #005ea6;
 }
+/* Navigation */
+
+nav{
+    background:#0078D4;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#FFD966;
+}
