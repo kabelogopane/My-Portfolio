@@ -282,3 +282,50 @@ nav a:hover{
     color:#0078D4;
     margin-bottom:15px;
 }
+<section id="experience">
+
+<h2>Experience</h2>
+
+<div class="project-card">
+
+<h3>Salesforce Administrator Projects</h3>
+
+<p><strong>2025 - Present</strong></p>
+
+<p>
+Designed and built Salesforce CRM solutions using custom objects,
+validation rules, Flow automation, reports, dashboards and data management.
+Completed multiple portfolio projects that simulate real business environments.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>IT Support</h3>
+
+<p><strong>2024 - Present</strong></p>
+
+<p>
+Provided technical support, troubleshooting, Windows administration,
+network configuration and user support while developing practical IT skills
+through training and hands-on projects.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Azure Cloud Projects</h3>
+
+<p><strong>2026</strong></p>
+
+<p>
+Designed Microsoft Azure cloud solutions including Azure Virtual Desktop,
+Virtual Machines, Microsoft Entra ID, Azure Storage, Backup and Monitoring
+for business scenarios.
+</p>
+
+</div>
+
+</section>
