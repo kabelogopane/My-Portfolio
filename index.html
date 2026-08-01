@@ -1,364 +1,93 @@
-<!DOCTYPE html>
+from pathlib import Path
+html = """<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kabelo Gopane | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kabelo Gopane | Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#education">Education</a>
+<a href="#certifications">Certifications</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
 
-    <!-- Navigation -->
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
-        <a href="#certifications">Certifications</a>
-        <a href="#contact">Contact</a>
-    </nav>
+<header class="hero" id="home">
+<h1>Kabelo Gopane</h1>
+<p class="subtitle">Salesforce Administrator | IT Support | Microsoft Azure</p>
+<div class="buttons">
+<a class="btn" href="#projects">View Projects</a>
+<a class="btn" href="#contact">Contact Me</a>
+<a class="btn" href="#">Download CV</a>
+</div>
+</header>
 
-    <!-- Hero Section -->
-    <header class="hero" id="home">
-
-        <h1>Kabelo Gopane</h1>
-
-        <p class="subtitle">
-            Salesforce Administrator | IT Support | Azure Cloud
-        </p>
-
-        <div class="buttons">
-            <a href="#projects" class="btn">View Projects</a>
-            <a href="#contact" class="btn">Contact Me</a>
-        </div>
-
-    </header>
-
-    <!-- Statistics -->
-    <section class="stats">
-
-        <div class="stat-box">
-            <h2>5+</h2>
-            <p>Certifications</p>
-        </div>
-
-        <div class="stat-box">
-            <h2>3</h2>
-            <p>Projects</p>
-        </div>
-
-        <div class="stat-box">
-            <h2>6</h2>
-            <p>Technologies</p>
-        </div>
-
-        <div class="stat-box">
-            <h2>2</h2>
-            <p>CRM Solutions</p>
-        </div>
-
-    </section>
-
-    <!-- About -->
-    <section id="about">
-
-    <h2>About Me</h2>
-
-    <p class="about-intro">
-        Hello! I'm <strong>Kabelo Gopane</strong>, an aspiring Salesforce Administrator, Azure Cloud enthusiast, and IT Support professional based in South Africa.
-    </p>
-
-    <div class="about-container">
-
-        <div class="about-card">
-            <h3>Who I Am</h3>
-
-            <p>
-                I enjoy solving business and technology problems by building practical digital solutions.
-                I am passionate about cloud computing, CRM systems, business automation, and continuous learning.
-            </p>
-
-        </div>
-
-        <div class="about-card">
-
-            <h3>Career Goal</h3>
-
-            <p>
-                My goal is to become a professional Salesforce Administrator and Cloud Consultant.
-                I enjoy designing secure systems, automating business processes, and helping organisations improve efficiency through technology.
-            </p>
-
-        </div>
-
-        <div class="about-card">
-
-            <h3>What I Work With</h3>
-
-            <ul>
-                <li>Salesforce Administration</li>
-                <li>Microsoft Azure</li>
-                <li>Power BI</li>
-                <li>Windows Server</li>
-                <li>Active Directory</li>
-                <li>Networking</li>
-            </ul>
-
-        </div>
-
-    </div>
-
+<section class="stats">
+<div class="stat-box"><h2>5+</h2><p>Certifications</p></div>
+<div class="stat-box"><h2>3</h2><p>Major Projects</p></div>
+<div class="stat-box"><h2>6+</h2><p>Technologies</p></div>
+<div class="stat-box"><h2>100%</h2><p>Continuous Learning</p></div>
 </section>
 
-    <!-- Skills -->
-    <section id="skills">
-
-        <h2>Technical Skills</h2>
-
-        <div class="skill">
-            <p>Salesforce Administration</p>
-            <div class="progress">
-                <div class="progress-bar salesforce">85%</div>
-            </div>
-        </div>
-
-        <div class="skill">
-            <p>Microsoft Azure</p>
-            <div class="progress">
-                <div class="progress-bar azure">80%</div>
-            </div>
-        </div>
-
-        <div class="skill">
-            <p>Power BI</p>
-            <div class="progress">
-                <div class="progress-bar powerbi">70%</div>
-            </div>
-        </div>
-
-        <div class="skill">
-            <p>Windows Server</p>
-            <div class="progress">
-                <div class="progress-bar windows">75%</div>
-            </div>
-        </div>
-
-        <div class="skill">
-            <p>Networking</p>
-            <div class="progress">
-                <div class="progress-bar networking">80%</div>
-            </div>
-        </div>
-
-        <div class="skill">
-            <p>HTML & CSS</p>
-            <div class="progress">
-                <div class="progress-bar html">65%</div>
-            </div>
-        </div>
-
-    </section>
-
-    <section id="experience">
-
-    <section id="experience">
-
-<h2>Experience</h2>
-
-<div class="experience-container">
-
-<div class="experience-card">
-
-<h3>Salesforce Administrator Projects</h3>
-
-<p class="date">2025 - Present</p>
-
-<p>
-Designed and built Salesforce CRM solutions using custom objects,
-validation rules, Flow automation, reports, dashboards and data management.
-Completed multiple portfolio projects that simulate real business environments.
-</p>
-
+<section id="about">
+<h2>About Me</h2>
+<p class="about-intro">Hello! I'm <strong>Kabelo Gopane</strong>, an aspiring Salesforce Administrator, Azure Cloud enthusiast and IT Support professional from South Africa.</p>
+<div class="about-container">
+<div class="about-card"><h3>Who I Am</h3><p>I enjoy building business solutions with Salesforce, Microsoft Azure and Power BI while continuously improving my technical skills.</p></div>
+<div class="about-card"><h3>Career Goal</h3><p>My goal is to become a Salesforce Administrator and Cloud Consultant who helps organisations automate business processes and improve efficiency.</p></div>
+<div class="about-card"><h3>Core Technologies</h3><ul><li>Salesforce</li><li>Microsoft Azure</li><li>Power BI</li><li>Windows Server</li><li>Active Directory</li><li>Networking</li></ul></div>
 </div>
-
-<div class="experience-card">
-
-<h3>IT Support</h3>
-
-<p class="date">2024 - Present</p>
-
-<p>
-Provided technical support, troubleshooting, Windows administration,
-network configuration and user support while developing practical IT skills.
-</p>
-
-</div>
-
-<div class="experience-card">
-
-<h3>Microsoft Azure Projects</h3>
-
-<p class="date">2026</p>
-
-<p>
-Designed Microsoft Azure cloud solutions using Azure Virtual Desktop,
-Virtual Machines, Microsoft Entra ID, Azure Storage, Azure Backup and Azure Monitor.
-</p>
-
-</div>
-
-</div>
-
 </section>
 
-</section>
-    <!-- Education -->
-    <section id="education">
-
-    <h2>Education</h2>
-
-    <div class="education-container">
-
-        <div class="education-card">
-
-            <h3>🎓 Bachelor of Business Administration</h3>
-
-            <p><strong>Institution:</strong> Maharishi Institute</p>
-
-            <p>
-                Studied business management, leadership, communication,
-                strategic planning, finance, and entrepreneurship.
-            </p>
-
-        </div>
-
-        <div class="education-card">
-
-            <h3>📚 Professional Learning</h3>
-
-            <p>
-                I continue to improve my technical skills through Trailhead,
-                Microsoft Learn, hands-on projects, GitHub, and continuous
-                self-learning.
-            </p>
-
-        </div>
-
-    </div>
-
+<section id="skills"><h2>Technical Skills</h2>
+<div class="skill"><p>Salesforce Administration</p><div class="progress"><div class="progress-bar salesforce">90%</div></div></div>
+<div class="skill"><p>Microsoft Azure</p><div class="progress"><div class="progress-bar azure">80%</div></div></div>
+<div class="skill"><p>Power BI</p><div class="progress"><div class="progress-bar powerbi">70%</div></div></div>
+<div class="skill"><p>Windows Server</p><div class="progress"><div class="progress-bar windows">75%</div></div></div>
+<div class="skill"><p>Networking</p><div class="progress"><div class="progress-bar networking">80%</div></div></div>
+<div class="skill"><p>HTML & CSS</p><div class="progress"><div class="progress-bar html">65%</div></div></div>
 </section>
 
-    <!-- Certifications -->
-    <section id="certifications">
+<section id="experience"><h2>Professional Experience</h2><div class="experience-container">
+<div class="experience-card"><h3>Salesforce Administrator Projects</h3><p class="date">2025–Present</p><p>Built CRM solutions using custom objects, Flows, validation rules, dashboards and reports.</p></div>
+<div class="experience-card"><h3>IT Support</h3><p class="date">2024–Present</p><p>Hands-on experience with troubleshooting, Active Directory, Windows administration and networking.</p></div>
+<div class="experience-card"><h3>Microsoft Azure</h3><p class="date">2026</p><p>Designed Hybrid N-Tier cloud solutions using Azure Virtual Desktop, Entra ID, Azure Backup and Azure Monitor.</p></div>
+</div></section>
 
-        <h2>Certifications</h2>
+<section id="education"><h2>Education</h2><div class="education-container">
+<div class="education-card"><h3>Bachelor of Business Administration</h3><p>Maharishi Institute</p></div>
+<div class="education-card"><h3>Continuous Learning</h3><p>Trailhead, Microsoft Learn, GitHub and hands-on projects.</p></div>
+</div></section>
 
-        <ul>
-            <li>Salesforce Certified Administrator</li>
-            <li>Salesforce Associate</li>
-            <li>Microsoft Power Platform Fundamentals</li>
-            <li>CompTIA IT Fundamentals+</li>
-            <li>System Support NQF Level 4</li>
-        </ul>
+<section id="certifications"><h2>Certifications</h2><ul>
+<li>Salesforce Certified Administrator</li>
+<li>Salesforce Associate</li>
+<li>Microsoft Power Platform Fundamentals</li>
+<li>CompTIA IT Fundamentals+</li>
+<li>System Support NQF Level 4</li>
+</ul></section>
 
-    </section>
+<section id="projects"><h2>Portfolio Projects</h2><div class="projects-container">
+<div class="project-card"><h3>Mfanageza Trading CRM</h3><p>Salesforce CRM with Web-to-Lead, automation, reports and dashboards.</p></div>
+<div class="project-card"><h3>Microsoft Azure Cloud Solution</h3><p>Hybrid N-Tier Azure architecture for GORA ICT.</p></div>
+<div class="project-card"><h3>Ubuntu Infrastructure CRM</h3><p>Salesforce CRM integrated with Power BI analytics.</p></div>
+</div></section>
 
-    <section id="experience">
+<section id="contact"><h2>Contact Me</h2><div class="contact-container">
+<div class="contact-card"><h3>Email</h3><p>your-email@example.com</p></div>
+<div class="contact-card"><h3>LinkedIn</h3><p>linkedin.com/in/kabelo-gopane-78a9942ba</p></div>
+<div class="contact-card"><h3>GitHub</h3><p>github.com/kabelogopane</p></div>
+</div></section>
 
-<h2>Experience</h2>
-
-<div class="project-card">
-
-<h3>Salesforce Administrator Projects</h3>
-
-<p><strong>2025 - Present</strong></p>
-
-<p>
-Designed and built Salesforce CRM solutions using custom objects,
-validation rules, Flow automation, reports, dashboards and data management.
-Completed multiple portfolio projects that simulate real business environments.
-</p>
-
-</div>
-
-<div class="project-card">
-
-<h3>IT Support</h3>
-
-<p><strong>2024 - Present</strong></p>
-
-<p>
-Provided technical support, troubleshooting, Windows administration,
-network configuration and user support while developing practical IT skills
-through training and hands-on projects.
-</p>
-
-</div>
-
-<div class="project-card">
-
-<h3>Azure Cloud Projects</h3>
-
-<p><strong>2026</strong></p>
-
-<p>
-Designed Microsoft Azure cloud solutions including Azure Virtual Desktop,
-Virtual Machines, Microsoft Entra ID, Azure Storage, Backup and Monitoring
-for business scenarios.
-</p>
-
-</div>
-
-</section>
-
-    <!-- Projects -->
-    <section id="projects">
-
-        <h2>Projects</h2>
-
-        <div class="projects-container">
-
-            <div class="project-card">
-                <h3>Salesforce CRM</h3>
-                <p>
-                    Built a Salesforce CRM solution for infrastructure opportunities
-                    using custom objects, reports, dashboards, automation and validation rules.
-                </p>
-            </div>
-
-            <div class="project-card">
-                <h3>Microsoft Azure</h3>
-                <p>
-                    Designed a hybrid cloud infrastructure using Azure Virtual Desktop,
-                    Azure Active Directory and Azure Storage.
-                </p>
-            </div>
-
-            <div class="project-card">
-                <h3>Power BI Dashboard</h3>
-                <p>
-                    Created interactive dashboards to visualize business and infrastructure data.
-                </p>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Contact -->
-    <section id="contact">
-
-        <h2>Contact</h2>
-
-        <p>Email:
-            <a href="mailto:your-email@email.com">your-email@email.com</a>
-        </p>
-
-    </section>
-
-</body>
-
-</html>
+<footer><p>© 2026 Kabelo Gopane | Salesforce Administrator Portfolio</p></footer>
+</body></html>"""
+path="/mnt/data/index.html"
+Path(path).write_text(html,encoding="utf-8")
+print(path)
