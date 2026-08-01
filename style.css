@@ -511,3 +511,119 @@ section{
     background:#005A9C;
 
 }
+
+/* ========================= */
+/* CONTACT */
+/* ========================= */
+
+.contact{
+
+    background:#f4f6f9;
+
+}
+
+.contact-intro{
+
+    text-align:center;
+
+    max-width:700px;
+
+    margin:0 auto 50px;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
+.contact-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:30px;
+
+}
+
+.contact-card{
+
+    width:260px;
+
+    background:white;
+
+    padding:30px;
+
+    text-align:center;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.10);
+
+    transition:.3s;
+
+}
+
+.contact-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.15);
+
+}
+
+.contact-card h3{
+
+    color:#0078D4;
+
+    margin-bottom:15px;
+
+}
+
+.contact-card a{
+
+    text-decoration:none;
+
+    color:#333;
+
+    font-weight:bold;
+
+}
+
+.contact-card a:hover{
+
+    color:#0078D4;
+
+}
+
+.cv-button{
+
+    text-align:center;
+
+    margin-top:50px;
+
+}
+
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+
+footer{
+
+    background:#005A9C;
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+footer p{
+
+    margin:0;
+
+}
