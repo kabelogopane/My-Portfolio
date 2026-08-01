@@ -261,3 +261,24 @@ nav a:hover{
     color:#0078D4;
     margin-bottom:15px;
 }
+.contact-container{
+    display:flex;
+    gap:25px;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:30px;
+}
+
+.contact-card{
+    width:250px;
+    background:white;
+    padding:25px;
+    text-align:center;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.contact-card h3{
+    color:#0078D4;
+    margin-bottom:15px;
+}
