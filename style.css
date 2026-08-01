@@ -189,5 +189,97 @@ nav ul li{
     width:95%;
 
 }
+/* ================= ABOUT ================= */
 
+.about{
+
+    padding:80px 40px;
+
+}
+
+.about h2{
+
+    text-align:center;
+
+    color:#0078D4;
+
+    font-size:38px;
+
+    margin-bottom:25px;
+
+}
+
+.about-intro{
+
+    max-width:900px;
+
+    margin:0 auto 50px;
+
+    text-align:center;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
+.about-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+}
+
+.about-card{
+
+    width:320px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+    transition:.3s;
+
+}
+
+.about-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.about-card h3{
+
+    color:#0078D4;
+
+    margin-bottom:15px;
+
+}
+
+.about-card p{
+
+    line-height:1.7;
+
+}
+
+.about-card ul{
+
+    padding-left:20px;
+
+}
+
+.about-card li{
+
+    margin-bottom:10px;
+
+}
 }
