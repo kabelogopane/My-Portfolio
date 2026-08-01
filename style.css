@@ -1,4 +1,66 @@
 /* ========================= */
+/* GENERAL */
+/* ========================= */
+
+body {
+    ...
+}
+
+/* Navigation */
+nav {
+    ...
+}
+
+/* Hero */
+.hero {
+    ...
+}
+
+/* Stats */
+.stats {
+    ...
+}
+
+/* About */
+.about-container {
+    ...
+}
+
+/* Skills */
+.skill {
+    ...
+}
+
+/* Experience */
+.experience-container {
+    ...
+}
+
+/* Education */
+.education-container {
+    ...
+}
+
+/* Projects */
+.projects-container {
+    ...
+}
+
+/* Contact */
+.contact-container {
+    ...
+}
+
+/* Footer */
+footer {
+    ...
+}
+
+/* ------------------------------- */
+/* PASTE YOUR NEW CODE HERE */
+/* ------------------------------- */
+
+/* ========================= */
 /* FOOTER */
 /* ========================= */
 
@@ -11,246 +73,9 @@ footer{
     border-radius:10px;
 }
 
-footer p{
-    margin:0;
-    font-size:16px;
-    letter-spacing:.5px;
-}
-
-/* ========================= */
-/* CARD ANIMATIONS */
-/* ========================= */
-
-.about-card,
-.education-card,
-.experience-card,
-.project-card,
-.contact-card,
-.stat-box{
-
-    transition:
-    transform .3s ease,
-    box-shadow .3s ease;
-
-}
-
-.about-card:hover,
-.education-card:hover,
-.experience-card:hover,
-.project-card:hover,
-.contact-card:hover,
-.stat-box:hover{
-
-    transform:translateY(-10px);
-
-    box-shadow:
-    0 12px 30px rgba(0,0,0,.18);
-
-}
-
-/* ========================= */
-/* LINKS */
-/* ========================= */
-
-a{
-
-    color:#0078D4;
-    transition:.3s;
-
-}
-
-a:hover{
-
-    color:#005A9C;
-
-}
-
-/* ========================= */
-/* BUTTONS */
-/* ========================= */
-
-.btn{
-
-    transition:
-    background .3s,
-    transform .3s;
-
-}
-
-.btn:hover{
-
-    background:#005ea6;
-    transform:translateY(-3px);
-
-}
-
-/* ========================= */
-/* IMAGES */
-/* ========================= */
-
-img{
-
-    max-width:100%;
-    height:auto;
-    border-radius:10px;
-    display:block;
-
-}
-
-/* ========================= */
-/* LISTS */
-/* ========================= */
-
-ul{
-
-    padding-left:20px;
-
-}
-
-li{
-
-    margin-bottom:10px;
-
-}
-
-/* ========================= */
-/* SECTION SPACING */
-/* ========================= */
-
-section{
-
-    padding:20px 0;
-
-}
-
-/* ========================= */
-/* CONTACT LINKS */
-/* ========================= */
-
-.contact-card a{
-
-    text-decoration:none;
-    color:#333;
-
-}
-
-.contact-card a:hover{
-
-    color:#0078D4;
-
-}
-
-/* ========================= */
-/* MOBILE RESPONSIVE */
-/* ========================= */
-
-@media (max-width:768px){
-
-body{
-
-    margin:20px;
-
-}
-
-.hero{
-
-    padding:60px 15px;
-
-}
-
-.hero h1{
-
-    font-size:38px;
-
-}
-
-.subtitle{
-
-    font-size:20px;
-
-}
-
-nav{
-
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:10px;
-
-}
-
-nav a{
-
-    margin:5px;
-
-}
-
-.stats,
-.about-container,
-.education-container,
-.experience-container,
-.projects-container,
-.contact-container{
-
-    flex-direction:column;
-    align-items:center;
-
-}
-
-.stat-box,
-.about-card,
-.education-card,
-.experience-card,
-.project-card,
-.contact-card{
-
-    width:90%;
-
-}
-
-.btn{
-
-    display:block;
-    width:220px;
-    margin:15px auto;
-    text-align:center;
-
-}
-
-}
-
-/* ========================= */
-/* LARGE SCREENS */
-/* ========================= */
-
-@media (min-width:1200px){
-
-body{
-
-    max-width:1400px;
-    margin:auto;
-
-}
-
-}
-
-/* ========================= */
-/* SMOOTH SCROLL */
-/* ========================= */
-
-html{
-
-    scroll-behavior:smooth;
-
-}
-
-/* ========================= */
-/* SELECTION COLOR */
-/* ========================= */
+/* ...the rest of the code you pasted... */
 
 ::selection{
-
     background:#0078D4;
     color:white;
-
 }
