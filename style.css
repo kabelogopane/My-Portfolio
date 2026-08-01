@@ -111,3 +111,57 @@ nav a{
 nav a:hover{
     color:#FFD966;
 }
+/* Skills Section */
+
+.skill{
+    margin:20px 0;
+}
+
+.progress{
+    width:100%;
+    background:#ddd;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.progress-bar{
+    height:25px;
+    line-height:25px;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+    border-radius:20px;
+}
+
+/* Skill Levels */
+
+.salesforce{
+    width:90%;
+    background:#00A1E0;
+}
+
+.azure{
+    width:75%;
+    background:#0078D4;
+}
+
+.powerbi{
+    width:70%;
+    background:#F2C811;
+    color:black;
+}
+
+.windows{
+    width:75%;
+    background:#4CAF50;
+}
+
+.networking{
+    width:80%;
+    background:#FF9800;
+}
+
+.html{
+    width:65%;
+    background:#E34F26;
+}
