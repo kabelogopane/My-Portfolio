@@ -61,98 +61,42 @@ nav ul li a:hover{
     color:#FFD966;
 }
 
-/* ================= HERO ================= */
+<!-- ================= HERO ================= -->
 
-.hero{
-    min-height:90vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:80px 20px;
-    background:#f4f6f9;
-}
+<header class="hero" id="home">
 
-.hero-content{
-    max-width:900px;
-    width:100%;
-}
+    <h1>Kabelo Gopane</h1>
 
-.hero-text{
-    width:100%;
-}
+    <h2>
+        Salesforce Administrator | Microsoft Azure | IT Support
+    </h2>
 
-.hero-text h1{
-    font-size:60px;
-    color:#0078D4;
-    margin-bottom:20px;
-}
+    <p>
+        I build Salesforce CRM solutions, Microsoft Azure cloud solutions,
+        and provide IT support using modern technologies.
+        I am passionate about solving business problems through cloud computing,
+        automation and digital transformation.
+    </p>
 
-.hero-text h2{
-    font-size:28px;
-    color:#444;
-    margin-bottom:25px;
-}
+    <div class="hero-buttons">
 
-.hero-text p{
-    font-size:18px;
-    line-height:1.8;
-    color:#555;
-    margin-bottom:40px;
-}
+        <a href="#projects" class="button">
+            View Projects
+        </a>
 
-.hero-buttons{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
-}
+        <a href="#contact" class="button">
+            Contact Me
+        </a>
 
-.button{
-    display:inline-block;
-    padding:15px 35px;
-    background:#0078D4;
-    color:white;
-    text-decoration:none;
-    border-radius:8px;
-    font-weight:bold;
-    transition:.3s;
-}
+        <a href="assets/Kabelo_Gopane_CV.pdf"
+           class="button"
+           download>
+            Download CV
+        </a>
 
-.button:hover{
-    background:#005A9C;
-    transform:translateY(-3px);
-}
+    </div>
 
-/* Mobile */
-
-@media(max-width:768px){
-
-.hero{
-    padding:60px 20px;
-}
-
-.hero-text h1{
-    font-size:42px;
-}
-
-.hero-text h2{
-    font-size:22px;
-}
-
-.hero-text p{
-    font-size:16px;
-}
-
-.hero-buttons{
-    flex-direction:column;
-    align-items:center;
-}
-
-.button{
-    width:220px;
-    text-align:center;
-}
+</header>
 
 }
 /* ========================= */
