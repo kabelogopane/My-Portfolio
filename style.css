@@ -255,12 +255,12 @@ section{
 }
 
 .salesforce{
-    width:90%;
+    width:80%;
     background:#00A1E0;
 }
 
 .azure{
-    width:80%;
+    width:70%;
     background:#0078D4;
 }
 
@@ -275,11 +275,11 @@ section{
 }
 
 .active-directory{
-    width:75%;
+    width:65%;
     background:#8E44AD;
 }
 
 .networking{
-    width:80%;
+    width:60%;
     background:#FF9800;
 }
