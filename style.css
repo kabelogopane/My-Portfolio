@@ -219,3 +219,67 @@ section{
 .about-card li{
     margin-bottom:10px;
 }
+
+/* ========================= */
+/* SKILLS */
+/* ========================= */
+
+.skills{
+    background:#f4f6f9;
+}
+
+.skill{
+    max-width:850px;
+    margin:30px auto;
+}
+
+.skill-info{
+    display:flex;
+    justify-content:space-between;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.progress{
+    width:100%;
+    height:22px;
+    background:#dcdcdc;
+    border-radius:30px;
+    overflow:hidden;
+}
+
+.progress-bar{
+    height:100%;
+    border-radius:30px;
+    transition:width 1.5s ease;
+}
+
+.salesforce{
+    width:90%;
+    background:#00A1E0;
+}
+
+.azure{
+    width:80%;
+    background:#0078D4;
+}
+
+.powerbi{
+    width:75%;
+    background:#F2C811;
+}
+
+.windows{
+    width:80%;
+    background:#4CAF50;
+}
+
+.active-directory{
+    width:70%;
+    background:#8E44AD;
+}
+
+.networking{
+    width:60%;
+    background:#FF9800;
+}
