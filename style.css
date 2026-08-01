@@ -415,3 +415,99 @@ section{
     font-weight:bold;
 
 }
+
+/* ========================= */
+/* PROJECTS */
+/* ========================= */
+
+.projects{
+
+    background:white;
+
+}
+
+.projects-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:30px;
+
+}
+
+.project-card{
+
+    width:340px;
+
+    background:#f8f9fb;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.10);
+
+    transition:.3s;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.15);
+
+}
+
+.project-card h3{
+
+    color:#0078D4;
+
+    margin-bottom:20px;
+
+}
+
+.project-card p{
+
+    line-height:1.8;
+
+    margin-bottom:25px;
+
+}
+
+.project-buttons{
+
+    display:flex;
+
+    justify-content:space-between;
+
+}
+
+.button-small{
+
+    background:#0078D4;
+
+    color:white !important;
+
+    text-decoration:none;
+
+    padding:10px 20px;
+
+    border-radius:6px;
+
+    font-size:15px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.button-small:hover{
+
+    background:#005A9C;
+
+}
