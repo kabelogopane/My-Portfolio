@@ -532,3 +532,87 @@ nav ul li{
     line-height:1.8;
 
 }
+
+/* ========================= */
+/* EDUCATION */
+/* ========================= */
+
+.education{
+
+    padding:90px 8%;
+
+    background:#f4f6f9;
+
+}
+
+.education h2{
+
+    text-align:center;
+
+    font-size:42px;
+
+    color:#0078D4;
+
+    margin-bottom:60px;
+
+}
+
+.education-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+}
+
+.education-card{
+
+    width:420px;
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.10);
+
+    transition:.3s;
+
+}
+
+.education-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.18);
+
+}
+
+.education-card h3{
+
+    color:#0078D4;
+
+    margin-bottom:15px;
+
+}
+
+.school{
+
+    font-weight:bold;
+
+    color:#555;
+
+    margin-bottom:15px;
+
+}
+
+.education-card p{
+
+    line-height:1.8;
+
+}
