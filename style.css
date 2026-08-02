@@ -446,3 +446,89 @@ nav ul li{
     background:#FF9800;
 
 }
+
+/* ========================= */
+/* EXPERIENCE */
+/* ========================= */
+
+.experience{
+
+    padding:90px 8%;
+
+    background:white;
+
+}
+
+.experience h2{
+
+    text-align:center;
+
+    font-size:42px;
+
+    color:#0078D4;
+
+    margin-bottom:60px;
+
+}
+
+.experience-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:30px;
+
+}
+
+.experience-card{
+
+    width:340px;
+
+    background:#f7f9fc;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.10);
+
+    transition:.3s;
+
+}
+
+.experience-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.18);
+
+}
+
+.experience-card h3{
+
+    color:#0078D4;
+
+    margin-bottom:15px;
+
+}
+
+.date{
+
+    display:block;
+
+    color:#666;
+
+    font-weight:bold;
+
+    margin-bottom:15px;
+
+}
+
+.experience-card p{
+
+    line-height:1.8;
+
+}
