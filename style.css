@@ -867,95 +867,162 @@ nav ul li{
 
 }
 
-<!-- ================= CONTACT ================= -->
+/* ========================= */
+/* PROJECTS */
+/* ========================= */
 
-<section class="contact" id="contact">
+.projects{
 
-    <h2>Get In Touch</h2>
+    padding:90px 8%;
 
-    <p class="contact-intro">
+    background:#f4f6f9;
 
-        I'm always open to new opportunities, collaborations and professional networking.
-        Feel free to contact me.
+}
 
-    </p>
+.projects h2{
 
-    <div class="contact-container">
+    text-align:center;
 
-        <div class="contact-card">
+    font-size:42px;
 
-            <h3>📧 Email</h3>
+    color:#0078D4;
 
-            <p>
+    margin-bottom:20px;
 
-                <a href="mailto:kabelo.gopane@maharishinstitute.org">
+}
 
-                    kabelo.gopane@maharishinstitute.org
+.projects-intro{
 
-                </a>
+    max-width:800px;
 
-            </p>
+    margin:0 auto 60px;
 
-        </div>
+    text-align:center;
 
-        <div class="contact-card">
+    color:#555;
 
-            <h3>💼 LinkedIn</h3>
+    line-height:1.8;
 
-            <p>
+}
 
-                <a href="https://linkedin.com/in/kabelo-gopane-78a9942ba"
-                   target="_blank">
+.projects-container{
 
-                    View LinkedIn
+    display:flex;
 
-                </a>
+    justify-content:center;
 
-            </p>
+    flex-wrap:wrap;
 
-        </div>
+    gap:30px;
 
-        <div class="contact-card">
+}
 
-            <h3>💻 GitHub</h3>
+.project-card{
 
-            <p>
+    width:360px;
 
-                <a href="https://github.com/kabelogopane"
-                   target="_blank">
+    background:white;
 
-                    github.com/kabelogopane
+    padding:30px;
 
-                </a>
+    border-radius:12px;
 
-            </p>
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
 
-        </div>
+    transition:.3s;
 
-        <div class="contact-card">
+}
 
-            <h3>📍 Location</h3>
+.project-card:hover{
 
-            <p>
+    transform:translateY(-8px);
 
-                Johannesburg, South Africa
+    box-shadow:0 12px 25px rgba(0,0,0,.18);
 
-            </p>
+}
 
-        </div>
+.project-card h3{
 
-    </div>
+    color:#0078D4;
 
-    <div class="cv-button">
+    margin-bottom:15px;
 
-        <a href="assets/Kabelo_Gopane_CV.pdf"
-           class="button"
-           download>
+}
 
-            📄 Download My CV
+.project-card h4{
 
-        </a>
+    margin-top:20px;
 
-    </div>
+    margin-bottom:10px;
 
-</section>
+    color:#444;
+
+}
+
+.project-card p{
+
+    line-height:1.7;
+
+}
+
+.project-card ul{
+
+    padding-left:20px;
+
+    margin-bottom:25px;
+
+}
+
+.project-card li{
+
+    margin-bottom:8px;
+
+}
+
+.project-buttons{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.button-small{
+
+    display:inline-block;
+
+    padding:10px 20px;
+
+    background:#0078D4;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:6px;
+
+    font-size:14px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.button-small:hover{
+
+    background:#005A9C;
+
+}
+
+.github-btn{
+
+    background:#24292e;
+
+}
+
+.github-btn:hover{
+
+    background:#000;
+
+}
