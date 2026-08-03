@@ -127,40 +127,29 @@ nav ul li a:hover{
 
 }
 
-/* ========================= */
-/* STATS */
-/* ========================= */
-
 .stats{
     display:grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:repeat(4,minmax(220px,1fr));
     gap:25px;
-    max-width:1100px;
+
+    max-width:1200px;
     margin:70px auto;
-    padding:0 40px;
+
+    padding:0 20px;
 }
 
 .stat-box{
-    background:white;
-    padding:35px;
+    background:#fff;
+
+    padding:35px 20px;
+
     border-radius:12px;
+
     text-align:center;
+
     box-shadow:0 5px 15px rgba(0,0,0,.12);
+
     transition:.3s;
-}
-
-.stat-box:hover{
-    transform:translateY(-8px);
-}
-
-.stat-box h3{
-    font-size:48px;
-    color:#0078D4;
-    margin-bottom:10px;
-}
-
-.stat-box p{
-    font-size:18px;
 }
 
 /* ========================= */
