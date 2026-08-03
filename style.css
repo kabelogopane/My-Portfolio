@@ -729,18 +729,18 @@ nav ul li{
 
 }
 
-.projects-container{
+.project-card{
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
 
     display:flex;
+    flex-direction:column;
+    justify-content:space-between;
 
-    justify-content:center;
-
-    flex-wrap:wrap;
-
-    gap:30px;
-
+    min-height:430px;
 }
-
 .project-card{
 
     width:360px;
@@ -804,13 +804,11 @@ nav ul li{
 }
 
 .project-buttons{
-
     display:flex;
-
+    justify-content:center;
     gap:15px;
-
+    margin-top:25px;
 }
-
 .button-small{
 
     display:inline-block;
