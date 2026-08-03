@@ -738,17 +738,18 @@ nav ul li{
 
 .project-card{
     width:340px;
-    min-height:430px;
+    height:560px;
 
-    background:white;
+    background:#fff;
     padding:30px;
+
     border-radius:12px;
 
     display:flex;
     flex-direction:column;
-    justify-content:space-between;
 
     box-shadow:0 5px 15px rgba(0,0,0,.12);
+
     transition:.3s;
 }
 
@@ -805,12 +806,15 @@ nav ul li{
     gap:30px;
     align-items:stretch;
 }
+
 .project-buttons{
+    margin-top:auto;
+
     display:flex;
     justify-content:center;
     gap:15px;
-    margin-top:25px;
 }
+
 .button-small{
 
     display:inline-block;
